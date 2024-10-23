@@ -69,12 +69,12 @@
         },
 
         {
-            "label": "build-prepare-Learning02",
+            "label": "build-preparar-Aprendizagem02",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning02/Learning02.csproj",
+                "${workspaceFolder}/preparar/Aprendizagem02/Aprendizagem02.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -82,12 +82,12 @@
         },
 
         {
-            "label": "build-prepare-Learning03",
+            "label": "build-preparar-Aprendizagem03",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning03/Learning03.csproj",
+                "${workspaceFolder}/preparar/Aprendizagem03/Aprendizagem03.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -95,12 +95,12 @@
         },
 
         {
-            "label": "build-prepare-Learning04",
+            "label": "build-preparar-Aprendizagem04",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning04/Learning04.csproj",
+                "${workspaceFolder}/preparar/Aprendizagem04/Aprendizagem04.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -108,12 +108,12 @@
         },
 
         {
-            "label": "build-prepare-Learning05",
+            "label": "build-preparar-Aprendizagem05",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/prepare/Learning05/Learning05.csproj",
+                "${workspaceFolder}/preparar/Aprendizagem05/Aprendizagem05.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

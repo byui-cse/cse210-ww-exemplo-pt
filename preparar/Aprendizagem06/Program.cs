@@ -1,12 +1,12 @@
 using System;
 
-namespace Learning06
+namespace Aprendizagem06
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Learning06 World!");
+            Console.WriteLine("Hello Aprendizagem06 World!");
         }
     }
 }

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prepare", "prepare", "{FB8530E5-B1C9-46EF-8767-CCC651557B8B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "preparar", "preparar", "{FB8530E5-B1C9-46EF-8767-CCC651557B8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning06", "prepare\Learning06\Learning06.csproj", "{8997F120-9B29-4B0C-B229-3F4315901D3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendizagem06", "preparar\Aprendizagem06\Aprendizagem06.csproj", "{8997F120-9B29-4B0C-B229-3F4315901D3C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning02", "prepare\Learning02\Learning02.csproj", "{09308A89-B816-4E32-B9E5-31AD3591EF34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendizagem02", "preparar\Aprendizagem02\Aprendizagem02.csproj", "{09308A89-B816-4E32-B9E5-31AD3591EF34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning05", "prepare\Learning05\Learning05.csproj", "{2EEE2E32-65A3-4E21-A0A9-2584701CEFA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendizagem05", "preparar\Aprendizagem05\Aprendizagem05.csproj", "{2EEE2E32-65A3-4E21-A0A9-2584701CEFA6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning04", "prepare\Learning04\Learning04.csproj", "{780995D4-C24E-4FBC-BAED-E770C269111D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendizagem04", "preparar\Aprendizagem04\Aprendizagem04.csproj", "{780995D4-C24E-4FBC-BAED-E770C269111D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning03", "prepare\Learning03\Learning03.csproj", "{BA0DC01F-B80A-4C70-B45D-CB743325CA08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendizagem03", "preparar\Aprendizagem03\Aprendizagem03.csproj", "{BA0DC01F-B80A-4C70-B45D-CB743325CA08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-prep", "csharp-prep", "{66590E3B-4FD6-492A-9625-C83B91B6B74B}"
 EndProject

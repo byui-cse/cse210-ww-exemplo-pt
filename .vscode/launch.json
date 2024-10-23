@@ -68,52 +68,52 @@
         },
 
         {
-            "name": "Learning 02 (Resume)",
+            "name": "Aprendizagem 02 (Resume)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning02",
-            "program": "${workspaceFolder}/prepare/Learning02/bin/Debug/net8.0/Learning02.dll",
+            "preLaunchTask": "build-preparar-Aprendizagem02",
+            "program": "${workspaceFolder}/preparar/Aprendizagem02/bin/Debug/net8.0/Aprendizagem02.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning02",
+            "cwd": "${workspaceFolder}/preparar/Aprendizagem02",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 03 (Fraction)",
+            "name": "Aprendizagem 03 (Fraction)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning03",
-            "program": "${workspaceFolder}/prepare/Learning03/bin/Debug/net8.0/Learning03.dll",
+            "preLaunchTask": "build-preparar-Aprendizagem03",
+            "program": "${workspaceFolder}/preparar/Aprendizagem03/bin/Debug/net8.0/Aprendizagem03.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning03",
+            "cwd": "${workspaceFolder}/preparar/Aprendizagem03",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 04 (Homework)",
+            "name": "Aprendizagem 04 (Homework)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning04",
-            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net8.0/Learning04.dll",
+            "preLaunchTask": "build-preparar-Aprendizagem04",
+            "program": "${workspaceFolder}/preparar/Aprendizagem04/bin/Debug/net8.0/Aprendizagem04.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning04",
+            "cwd": "${workspaceFolder}/preparar/Aprendizagem04",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
 
         {
-            "name": "Learning 05 (Shapes)",
+            "name": "Aprendizagem 05 (Shapes)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-prepare-Learning05",
-            "program": "${workspaceFolder}/prepare/Learning05/bin/Debug/net8.0/Learning05.dll",
+            "preLaunchTask": "build-preparar-Aprendizagem05",
+            "program": "${workspaceFolder}/preparar/Aprendizagem05/bin/Debug/net8.0/Aprendizagem05.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/prepare/Learning05",
+            "cwd": "${workspaceFolder}/preparar/Aprendizagem05",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
