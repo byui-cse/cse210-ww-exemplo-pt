@@ -1,10 +1,10 @@
 # cse210-ww-exemplo-pt
-This repository contains sample solutions for the Aprendizagem Activities in CSE 210.
+Este repositório contém exemplos de soluções para as Atividades de Aprendizagem no CSE 210.
 
-This is one way to write the code for these programs, but it is not the _only_ way to write it.
+Esta é uma maneira de escrever o código para esses programas, mas não é a _única_ forma de escrevê-lo.
 
-## Organization
-This repository contains the code for many different projects. They are arranged as follows:
+## Organização
+Este repositório contém o código para vários projetos diferentes. Eles estão organizados da seguinte maneira:
 
-* `csharp-prep` - Starter projects for each of the C# Prep assignments.
-* `preparar` - Starter projects for each of the preparation Aprendizagem Activities.
+* `csharp-prep` - Projetos iniciais para cada uma das tarefas de preparação em C#.
+* `preparar` - Projetos iniciais para cada uma das Atividades de Aprendizagem.
