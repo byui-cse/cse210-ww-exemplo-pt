@@ -4,12 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is your first name? ");
+        Console.Write("Qual o seu primeiro nome? ");
         string first = Console.ReadLine();
 
-        Console.Write("What is your last name? ");
+        Console.Write("Qual o seu sobrenome? ");
         string last = Console.ReadLine();
 
-        Console.WriteLine($"Your name is {last}, {first} {last}.");
+        Console.WriteLine($"Seu nome é {last}, {first} {last}.");
     }
 }
