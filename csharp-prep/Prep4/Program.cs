@@ -5,57 +5,58 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<int> numbers = new List<int>();
+        List<int> numeros = new List<int>();
         
-        // Please note we could use a do-while loop here instead
-        int userNumber = -1;
-        while (userNumber != 0)
+        // Perceba que também poderiamos usar um laço do-while aqui
+        int numeroUsuario = -1;
+        while (numeroUsuario != 0)
         {
-            Console.Write("Enter a number (0 to quit): ");
+            Console.Write("Digite um número (0 para sair): ");
             
-            string userResponse = Console.ReadLine();
-            userNumber = int.Parse(userResponse);
+            string respostaUsuario = Console.ReadLine();
+            numeroUsuario = int.Parse(respostaUsuario);
             
-            // Only add the number to the list if it is not 0
-            if (userNumber != 0)
+            // Somente acidione o numero à lista se ele não for 0
+            if (numeroUsuario != 0)
             {
-                numbers.Add(userNumber);
+                numeros.Add(numeroUsuario);
             }
         }
 
-        // Part 1: Compute the sum
-        int sum = 0;
-        foreach (int number in numbers)
+        // Part 1: Calcule a soma
+        int soma = 0;
+        foreach (int numero in numeros)
         {
-            sum += number;
+            soma += numero;
         }
 
-        Console.WriteLine($"The sum is: {sum}");
+        Console.WriteLine($"A soma é: {soma}");
 
-        // Part 2: Compute the average
-        // Notice that we first cast the sum variable to be a float. Otherwise, because
-        // both the sum and the count are integers, the computer will do integer division
-        // and I will not get a decimal value (even though it puts the result into a float variable).
-
-        // By making one of the variables a float first, the computer knows that it has to
-        // do the floating point division, and we get the decimal value that we expect.
-        float average = ((float)sum) / numbers.Count;
-        Console.WriteLine($"The average is: {average}");
-
-        // Part 3: Find the max
-        // There are several ways to do this, such as sorting the list
+        // Parte 2: Calcular a média
+        // Perceba que primeiro fazemos uma conversão da variável soma para float. Caso contrário,
+        // como tanto soma quanto Count (quantidade) são inteiros, o computador fará a divisão inteira
+        // e eu não obterei um valor decimal (mesmo que o resultado seja armazenado em uma variável float).
         
-        int max = numbers[0];
+        // Ao transformar uma das variáveis em float primeiro, o computador sabe que precisa
+        // fazer a divisão com ponto flutuante, e assim obtemos o valor decimal que esperamos.
+        
+        float media = ((float)soma) / numbers.Count;
+        Console.WriteLine($"A média é: {media}");
 
-        foreach (int number in numbers)
+        // Parte 3: Encontre o maior
+        // Há diversas maneiras de fazer isso, como por exemplo ordenar a lista
+        
+        int max = numeros[0];
+
+        foreach (int numero in numeros)
         {
-            if (number > max)
+            if (numero > max)
             {
-                // if this number is greater than the max, we have found the new max!
-                max = number;
+                // se esse número for maior que max, nós encontramos o novo valor para max!
+                max = numero;
             }
         }
 
-        Console.WriteLine($"The max is: {max}");
+        Console.WriteLine($"O maior valor é: {max}");
     }
 }
