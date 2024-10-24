@@ -68,7 +68,7 @@
         },
 
         {
-            "name": "Aprendizagem 02 (Resume)",
+            "name": "Aprendizagem 02 (Curriculo)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-preparar-Aprendizagem02",
@@ -81,7 +81,7 @@
         },
 
         {
-            "name": "Aprendizagem 03 (Fraction)",
+            "name": "Aprendizagem 03 (Fracao)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-preparar-Aprendizagem03",
@@ -94,7 +94,7 @@
         },
 
         {
-            "name": "Aprendizagem 04 (Homework)",
+            "name": "Aprendizagem 04 (Tarefa de Casa)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-preparar-Aprendizagem04",
@@ -107,7 +107,7 @@
         },
 
         {
-            "name": "Aprendizagem 05 (Shapes)",
+            "name": "Aprendizagem 05 (Figuras Geometricas)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-preparar-Aprendizagem05",
