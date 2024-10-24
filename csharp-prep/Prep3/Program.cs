@@ -4,33 +4,33 @@ class Program
 {
     static void Main(string[] args)
     {
-        // For Parts 1 and 2, where the user specified the number...
-        // Console.Write("What is the magic number? ");
-        // int magicNumber = int.Parse(Console.ReadLine());
+        // Para as Partes 1 e 2, onde o usuário definiu o número...
+        // Console.Write("Qual é o número mágico? ");
+        // int numeroMagico = int.Parse(Console.ReadLine());
         
-        // For Part 3, where we use a random number
-        Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1, 101);
+        // Para a Parte 3, onde usamos um número aleatório
+        Random geradorRandomico = new Random();
+        int numeroMagico = geradorRandomico.Next(1, 101);
 
-        int guess = -1;
+        int palpite = -1;
 
-        // We could also use a do-while loop here...
-        while (guess != magicNumber)
+        // Nós poderiamos usar um laço do-while aqui...
+        while (palpite != numeroMagico)
         {
-            Console.Write("What is your guess? ");
-            guess = int.Parse(Console.ReadLine());
+            Console.Write("Qual o seu palpite? ");
+            palpite = int.Parse(Console.ReadLine());
 
-            if (magicNumber > guess)
+            if (numeroMagico > palpite)
             {
-                Console.WriteLine("Higher");
+                Console.WriteLine("Maior");
             }
-            else if (magicNumber < guess)
+            else if (numeroMagico < palpite)
             {
-                Console.WriteLine("Lower");
+                Console.WriteLine("Menor");
             }
             else
             {
-                Console.WriteLine("You guessed it!");
+                Console.WriteLine("Você adivinhou!");
             }
 
         }                    
