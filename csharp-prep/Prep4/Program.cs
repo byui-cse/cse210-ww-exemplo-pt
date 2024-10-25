@@ -40,23 +40,23 @@ class Program
         // Ao transformar uma das variáveis em float primeiro, o computador sabe que precisa
         // fazer a divisão com ponto flutuante, e assim obtemos o valor decimal que esperamos.
         
-        float media = ((float)soma) / numbers.Count;
+        float media = ((float)soma) / numeros.Count;
         Console.WriteLine($"A média é: {media}");
 
         // Parte 3: Encontre o maior
         // Há diversas maneiras de fazer isso, como por exemplo ordenar a lista
         
-        int max = numeros[0];
+        int maior = numeros[0];
 
         foreach (int numero in numeros)
         {
-            if (numero > max)
+            if (numero > maior)
             {
-                // se esse número for maior que max, nós encontramos o novo valor para max!
-                max = numero;
+                // se esse número for maior que 'maior', nós encontramos o novo valor para 'maior'!
+                maior = numero;
             }
         }
 
-        Console.WriteLine($"O maior valor é: {max}");
+        Console.WriteLine($"O maior valor é: {maior}");
     }
 }
