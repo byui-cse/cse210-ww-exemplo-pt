@@ -4,24 +4,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Job job1 = new Job();
-        job1._jobTitle = "Software Engineer";
-        job1._company = "Microsoft";
-        job1._startYear = 2019;
-        job1._endYear = 2022;
+        Emprego emprego1 = new Emprego();
+        emprego1._cargo = "Engenheiro de Software";
+        emprego1._empresa = "Microsoft";
+        emprego1._anoInicio = 2019;
+        emprego1._anoFim = 2022;
 
-        Job job2 = new Job();
-        job2._jobTitle = "Manager";
-        job2._company = "Apple";
-        job2._startYear = 2022;
-        job2._endYear = 2023;
+        Emprego emprego2 = new Emprego();
+        emprego2._cargo = "Gerente";
+        emprego2._empresa = "Apple";
+        emprego2._anoInicio = 2022;
+        emprego2._anoFim = 2023;
 
-        Resume myResume = new Resume();
-        myResume._name = "Allison Rose";
+        Curriculo meuCurriculo = new Curriculo();
+        meuCurriculo._name = "Carlos Barbosa";
 
-        myResume._jobs.Add(job1);
-        myResume._jobs.Add(job2);
+        meuCurriculo._empregos.Add(emprego1);
+        meuCurriculo._empregos.Add(emprego2);
 
-        myResume.Display();
+        meuCurriculo.Exibir();
     }
 }
