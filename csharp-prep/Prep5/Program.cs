@@ -4,45 +4,45 @@ class Program
 {
     static void Main(string[] args)
     {
-        DisplayWelcomeMessage();
+        ExibirMensagemBoasVindas();
 
-        string userName = PromptUserName();
-        int userNumber = PromptUserNumber();
+        string nomeUsuario = PerguntarNomeUsuario();
+        int numeroUsuario = PerguntarNumeroUsuario();
 
-        int squaredNumber = SquareNumber(userNumber);
+        int numeroAoQuadrado = NumeroAoQuadrado(numeroUsuario);
 
-        DisplayResult(userName, squaredNumber);
+        ExibirResultado(nomeUsuario, numeroAoQuadrado);
     }
 
-    static void DisplayWelcomeMessage()
+    static void ExibirMensagemBoasVindas()
     {
-        Console.WriteLine("Welcome to the program!");
+        Console.WriteLine("Bem-vindo ao programa!");
     }
 
-    static string PromptUserName()
+    static string PerguntarNomeUsuario()
     {
-        Console.Write("Please enter your name: ");
-        string name = Console.ReadLine();
+        Console.Write("Por favor digite seu nome: ");
+        string nome = Console.ReadLine();
 
-        return name;
+        return nome;
     }
 
-    static int PromptUserNumber()
+    static int PerguntarNumeroUsuario()
     {
-        Console.Write("Please enter your favorite number: ");
-        int number = int.Parse(Console.ReadLine());
+        Console.Write("Por favor digite seu numero favorito: ");
+        int numero = int.Parse(Console.ReadLine());
 
-        return number;
+        return numero;
     }
 
-    static int SquareNumber(int number)
+    static int NumeroAoQuadrado(int numero)
     {
-        int square = number * number;
-        return square;
+        int quadrado = numero * numero;
+        return quadrado;
     }
 
-    static void DisplayResult(string name, int square)
+    static void ExibirResultado(string nome, int quadrado)
     {
-        Console.WriteLine($"{name}, the square of your number is {square}");
+        Console.WriteLine($"{nome}, the square of your number is {quadrado}");
     }
 }
