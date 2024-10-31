@@ -4,30 +4,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Notice that the list is a list of "Shape" objects. That means
-        // you can put any Shape objects in there, and also, any object where
-        // the class inherits from Shape
-        List<Shape> shapes = new List<Shape>();
+        // Observe que a lista é uma lista de objetos "Forma". Isso significa que
+        // você pode colocar qualquer objeto Forma nela, assim como qualquer objeto cuja
+        // classe herde de Forma.
+        List<Forma> formas = new List<Forma>();
 
-        Square s1 = new Square("Red", 3);
-        shapes.Add(s1);
+        Quadrado f1 = new Quadrado("Vermelho", 3);
+        formas.Add(f1);
 
-        Rectangle s2 = new Rectangle("Blue", 4, 5);
-        shapes.Add(s2);
+        Retangulo f2 = new Retangulo("Azul", 4, 5);
+        formas.Add(f2);
 
-        Circle s3 = new Circle("Green", 6);
-        shapes.Add(s3);
+        Circulo f3 = new Circulo("Verde", 6);
+        formas.Add(f3);
 
-        foreach (Shape s in shapes)
+        foreach (Forma f in formas)
         {
-            // Notice that all shapes have a GetColor method from the base class
-            string color = s.GetColor();
+            // Observe que todas as formas possuem um método ObterCor da classe base
+            string cor = f.ObterCor();
 
-            // Notice that all shapes have a GetArea method, but the behavior is
-            // different for each type of shape
-            double area = s.GetArea();
+            // Observe que todas as formas possuem um método ObterArea, mas o comportamento é
+            // diferente para cada tipo de forma
+            double area = f.ObterArea();
 
-            Console.WriteLine($"The {color} shape has an area of {area}.");
+            Console.WriteLine($"A forma {cor} tem uma area de {area}.");
         }
     }
 }

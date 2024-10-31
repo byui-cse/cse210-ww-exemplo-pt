@@ -6,7 +6,7 @@ namespace Aprendizagem06
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Aprendizagem06 World!");
+            Console.WriteLine("Olá Aprendizagem06 Mundo!");
         }
     }
 }

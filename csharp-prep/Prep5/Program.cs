@@ -43,6 +43,6 @@ class Program
 
     static void ExibirResultado(string nome, int quadrado)
     {
-        Console.WriteLine($"{nome}, the square of your number is {quadrado}");
+        Console.WriteLine($"{nome}, o quadrado do seu número é {quadrado}");
     }
 }
