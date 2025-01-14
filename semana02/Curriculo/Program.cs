@@ -17,7 +17,7 @@ class Program
         emprego2._anoFim = 2023;
 
         Curriculo meuCurriculo = new Curriculo();
-        meuCurriculo._name = "Carlos Barbosa";
+        meuCurriculo._nome = "Carlos Barbosa";
 
         meuCurriculo._empregos.Add(emprego1);
         meuCurriculo._empregos.Add(emprego2);

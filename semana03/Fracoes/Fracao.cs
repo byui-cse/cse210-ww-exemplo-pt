@@ -5,9 +5,8 @@ public class Fracao
     private int _numerador;
     private int _denominador;
 
-    public Fraction()
+    public Fracao()
     {
-        // Default to 1/1
         _numerador = 1;
         _denominador = 1;
     }
